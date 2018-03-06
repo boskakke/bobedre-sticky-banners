@@ -29,7 +29,7 @@
 
 		<div class="sticky-native__inner sticky-native__content--light sticky-native__content--dark ">
 			<div class="sticky-native__content">
-				<div class="sticky-native__logo sticky-mw-150 sticky-md-md-200"><img src="/dist/images/hay.png" alt="Hay" class="sticky-native__logo-img"></div>
+				<div class="sticky-native__logo sticky-mw-150 sticky-md-200"><img src="/dist/images/hay.png" alt="Hay" class="sticky-native__logo-img"></div>
 				<div class="sticky-native__line1 sticky-font-30 sticky-font-md-40">J42 stol ude nu</div>
 			</div>
 		</div>
