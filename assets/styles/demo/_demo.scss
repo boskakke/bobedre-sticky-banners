@@ -1,0 +1,26 @@
+.overview {
+	padding: 100px 0;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.ud {
+	opacity: .4;
+	pointer-events: none;
+}
+
+.demo-mode {
+	[data-demo] {
+		position: relative;
+		&:before {
+			content: attr(data-demo);
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 11px;
+			color: #333;
+			background-color: yellow;
+			padding: 2px;
+			z-index: 2;
+		}
+	}
+}

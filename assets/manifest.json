@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+
+    "demo.css": {
+      "files": [
+        "styles/demo.scss"
+      ]
+    },
+   
+    
+    "demo.js": {
+      "files": [
+        "scripts/demo.js"
+      ]
+    },
+    
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "config": {
+    "devUrl": "http://bb-banners.test"
+  }
+}

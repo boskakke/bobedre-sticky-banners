@@ -1,0 +1,19 @@
+{
+  "name": "bobedre",
+  "type": "Prototype",
+  "description": "HTML, CSS and JS for bobedre",
+  "homepage": "http://bobedre.medieimperiet.dk/",
+  "authors": [
+    {
+      "name": "Bo Skakke",
+      "email": "bo@skakke.dk"
+    }
+  ],
+  "keywords": [
+    "idényt"
+  ],  
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}

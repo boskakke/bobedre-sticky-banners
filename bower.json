@@ -1,0 +1,23 @@
+{
+  "name": "bobedre",
+  "homepage": "https://bobedre.medieimperiet.dk/",
+  "authors": [
+    "Bo Skakke <bo@skakke.dk>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "overrides": {
+    "slick-carousel": {
+      "main": [
+        "./slick/slick.min.js"
+      ]
+    },
+    "slick-lightbox": {
+      "main": [
+        "dist/slick-lightbox.js"
+      ]
+    }
+  },
+  "devDependencies": {}
+}
