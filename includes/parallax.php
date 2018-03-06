@@ -38,7 +38,7 @@
 
 		<div class="sticky-native__inner">
 			<div class="sticky-native__content sticky-native__content--light">
-				<div class="sticky-native__logo mw-150 " ><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img  "></div>	
+				<div class="sticky-native__logo sticky-mw-150 " ><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img  "></div>	
 				<div class="sticky-native__line1  sticky-font-40 sticky-font-md-60 sticky-font-lg-70">Music takes you places</div>	
 				<div class="sticky-native__line2 sticky-font-16 sticky-font-md-30 ">Beosound 35</div>	
 			</div>
@@ -48,7 +48,7 @@
 
 		<div class="sticky-native__inner">
 			<div class="sticky-native__content sticky-native__content--light">
-				<div class="sticky-native__logo mw-150"><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img"></div>	
+				<div class="sticky-native__logo sticky-mw-150"><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img"></div>	
 				<div class="sticky-native__line1 sticky-font-40 sticky-font-md-60 sticky-font-lg-70">Music takes you places</div>	
 				<div class="sticky-native__line2 sticky-font-16 sticky-font-md-30 ">Beosound 35</div>	
 			</div>
