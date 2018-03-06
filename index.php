@@ -24,8 +24,16 @@
 <div class="dummy-content">Jeg er dummy indhold - scroll ned</div>
 
 <?php 
+	$client = 'summer';
+	
+	include('includes/parallax.php')
+?>
+
+<div class="dummy-content">Jeg er dummy indhold</div>
+
+<?php 
 	$client = 'kvadrat';
-	$class = 'mb-100';
+	
 	include('includes/parallax.php')
 ?>
 
@@ -33,7 +41,7 @@
 
 <?php 
 	$client = 'hay';
-	$class = 'mb-100';
+	
 	include('includes/parallax.php')
 ?>
 
@@ -41,7 +49,7 @@
 
 <?php 
 	$client = 'bo';
-	$class = 'mb-100';
+	
 	include('includes/parallax.php')
 ?>
 
@@ -50,7 +58,7 @@
 
 <?php 
 	$client = 'bo2';
-	$class = 'mb-100';
+	
 	include('includes/parallax.php')
 ?>
 

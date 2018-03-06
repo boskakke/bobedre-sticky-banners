@@ -1,9 +1,4 @@
 
-
-
-
-
-
 .sticky-native {
 	height: 200vh;
 	display: block;
@@ -56,9 +51,6 @@
 		}
 	}
 	
-	&__logo {
-		
-	}
 	&__logo-img {
 		display: block;
 		width: 100%;
@@ -93,6 +85,7 @@ $margins: map-merge((
 $font-sizes: () !default;
 $font-sizes: map-merge((
 	"10":    	10px,
+	"12":    	12px,
 	"15":    	15px,
 	"16":    	16px,
 	"18":    	18px,
@@ -108,7 +101,10 @@ $font-sizes: map-merge((
 	"60":     	60px,
 	"65":     	65px,
 	"70":     	70px,
-	"75":     	75px
+	"75":     	75px,
+	"80":     	80px,
+	"90":     	90px,
+	"100":     	100px
 
 ), $font-sizes);
 
@@ -126,53 +122,53 @@ $logo-widths: map-merge((
 
 
 @each $margin, $value in $margins {
-	.mt-#{$margin} {
+	.sticky-mt-#{$margin} {
 		margin-top: $value;
 	}
 }
 
 @each $font-size, $value in $font-sizes {
-	.font-#{$font-size} {
+	.sticky-font-#{$font-size} {
 		font-size: $value;
 	}
 }
 
 @each $logo-width, $value in $logo-widths {
-	.mw-#{$logo-width} {
+	.sticky-mw-#{$logo-width} {
 		max-width: $value;
 	}
 }
 
 @include md-up {
 	@each $margin, $value in $margins {
-		.mt-md-#{$margin} {
+		.sticky-mt-md-#{$margin} {
 			margin-top: $value;
 		}
 	}
 	@each $font-size, $value in $font-sizes {
-		.font-md-#{$font-size} {
+		.sticky-font-md-#{$font-size} {
 			font-size: $value;
 		}
 	}
 	@each $logo-width, $value in $logo-widths {
-		.mw-md-#{$logo-width} {
+		.sticky-mw-md-#{$logo-width} {
 			max-width: $value;
 		}
 	}
 }
 @include lg-up {
 	@each $margin, $value in $margins {
-		.mt-lg-#{$margin} {
+		.sticky-mt-lg-#{$margin} {
 			margin-top: $value;
 		}
 	}
 	@each $font-size, $value in $font-sizes {
-		.font-lg-#{$font-size} {
+		.sticky-font-lg-#{$font-size} {
 			font-size: $value;
 		}
 	}
 	@each $logo-width, $value in $logo-widths {
-		.mw-lg-#{$logo-width} {
+		.sticky-mw-lg-#{$logo-width} {
 			max-width: $value;
 		}
 	}
