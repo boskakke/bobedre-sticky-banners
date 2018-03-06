@@ -9,9 +9,9 @@
  -->
 
 
-
+<a href="#"  target="_blank" class="sticky-native__link">
+<div  class="sticky-native">
 	
-	<a href="#" class="sticky-native" target="_blank">
 	
 		<div class="sticky-native__fig">
 			<picture>
@@ -28,8 +28,8 @@
 	<?php if($client == 'kvadrat') : ?>
 		<div class="sticky-native__inner sticky-native__content--light ">
 			<div class="sticky-native__content">
-				<div class="sticky-native__logo"><img src="/dist/images/kvadrat.png" alt="Hay" class="sticky-native__logo-img"></div>
-				<div class="sticky-native__line1">innovation since 1968</div>
+				<div class="sticky-native__logo mw-200"><img src="/dist/images/kvadrat.png" alt="Hay" class="sticky-native__logo-img"></div>
+				<div class="sticky-native__line1 font-40 font-md-60 mt-20">innovation since 1968</div>
 			</div>
 		</div>
 
@@ -38,8 +38,8 @@
 
 		<div class="sticky-native__inner sticky-native__content--light sticky-native__content--dark ">
 			<div class="sticky-native__content">
-				<div class="sticky-native__logo"><img src="/dist/images/hay.png" alt="Hay" class="sticky-native__logo-img"></div>
-				<div class="sticky-native__line1">J42 stol ude nu</div>
+				<div class="sticky-native__logo mw-150 md-md-200"><img src="/dist/images/hay.png" alt="Hay" class="sticky-native__logo-img"></div>
+				<div class="sticky-native__line1 font-30 font-md-40">J42 stol ude nu</div>
 			</div>
 		</div>
 
@@ -47,9 +47,9 @@
 
 		<div class="sticky-native__inner">
 			<div class="sticky-native__content sticky-native__content--light">
-				<div class="sticky-native__logo"><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img"></div>	
-				<div class="sticky-native__line1 ">	Music takes you places</div>	
-				<div class="sticky-native__line2 ">	Beosound 35</div>	
+				<div class="sticky-native__logo mw-150 " ><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img  "></div>	
+				<div class="sticky-native__line1  font-40 font-md-60 font-lg-70">Music takes you places</div>	
+				<div class="sticky-native__line2 font-16 font-md-30 ">Beosound 35</div>	
 			</div>
 		</div>
 
@@ -57,20 +57,15 @@
 
 		<div class="sticky-native__inner">
 			<div class="sticky-native__content sticky-native__content--light">
-				<div class="sticky-native__logo"><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img"></div>	
-				<div class="sticky-native__line1">	Music takes you places</div>	
-				<div class="sticky-native__line2">	Beosound 35</div>	
+				<div class="sticky-native__logo mw-150"><img src="/dist/images/bangolufsen.svg" alt="Bang &amp; Olufsen" class="sticky-native__logo-img"></div>	
+				<div class="sticky-native__line1 font-40 font-md-60 font-lg-70">Music takes you places</div>	
+				<div class="sticky-native__line2 font-16 font-md-30 ">Beosound 35</div>	
 			</div>
 		</div>
 	<?php endif; ?>
 
-
-	</a>
-
-
-
-
-
+</div>
+</a>
 
 </div>
 

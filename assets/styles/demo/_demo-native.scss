@@ -1,12 +1,22 @@
+
+
+
+
+
+
 .sticky-native {
 	height: 200vh;
 	display: block;
 	position: relative;
-	text-decoration: none;
+	width: 100%;
+	&__link {
+		text-decoration: none;
+	}
 	&__fig {
 		height: 100vh;
 		position: sticky;
 		top: 0;
+		z-index: 0;
 		img {
 			position: absolute;
 			top: 0;
@@ -17,13 +27,19 @@
 		}
 	}
 	&__inner {
-		position: relative;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+
 		z-index: 1;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
-
+		z-index: 20;
+		text-align: center;
+		background-color: transparent;
 	}
 
 	&__content {
@@ -41,8 +57,7 @@
 	}
 	
 	&__logo {
-		max-width: 200px;
-
+		
 	}
 	&__logo-img {
 		display: block;
@@ -51,20 +66,115 @@
 		height: auto;
 	}
 	&__line1 {
-		font-size: 40px;
 		font-weight: 300;
 		margin-top: 20px;
 	}
 	&__line2 {
-		font-size: 18px;
 		font-weight: 300;
 		margin-top: 20px;
 	}
 	&__line3 {
-		font-size: 18px;
 		font-weight: 300;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 }
 
+
+
+$margins: () !default;
+$margins: map-merge((
+	"10":    	10px,
+	"20":  	 	20px,
+	"30":    	30px,
+	"40":     	40px
+), $margins);
+
+$font-sizes: () !default;
+$font-sizes: map-merge((
+	"10":    	10px,
+	"15":    	15px,
+	"16":    	16px,
+	"18":    	18px,
+	"20":  	 	20px,
+	"22":  	 	22px,
+	"25":  	 	25px,
+	"30":    	30px,
+	"35":  	 	35px,
+	"40":     	40px,
+	"45":     	45px,
+	"50":     	50px,
+	"55":     	55px,
+	"60":     	60px,
+	"65":     	65px,
+	"70":     	70px,
+	"75":     	75px
+
+), $font-sizes);
+
+$logo-widths: () !default;
+$logo-widths: map-merge((
+	"100":    	100px,
+	"150":    	150px,
+	"200":  	200px,
+	"250":  	250px,
+	"300":    	300px,
+	"350":  	350px,
+	"400":     	400px
+), $logo-widths);
+
+
+
+@each $margin, $value in $margins {
+	.mt-#{$margin} {
+		margin-top: $value;
+	}
+}
+
+@each $font-size, $value in $font-sizes {
+	.font-#{$font-size} {
+		font-size: $value;
+	}
+}
+
+@each $logo-width, $value in $logo-widths {
+	.mw-#{$logo-width} {
+		max-width: $value;
+	}
+}
+
+@include md-up {
+	@each $margin, $value in $margins {
+		.mt-md-#{$margin} {
+			margin-top: $value;
+		}
+	}
+	@each $font-size, $value in $font-sizes {
+		.font-md-#{$font-size} {
+			font-size: $value;
+		}
+	}
+	@each $logo-width, $value in $logo-widths {
+		.mw-md-#{$logo-width} {
+			max-width: $value;
+		}
+	}
+}
+@include lg-up {
+	@each $margin, $value in $margins {
+		.mt-lg-#{$margin} {
+			margin-top: $value;
+		}
+	}
+	@each $font-size, $value in $font-sizes {
+		.font-lg-#{$font-size} {
+			font-size: $value;
+		}
+	}
+	@each $logo-width, $value in $logo-widths {
+		.mw-lg-#{$logo-width} {
+			max-width: $value;
+		}
+	}
+}
+	
